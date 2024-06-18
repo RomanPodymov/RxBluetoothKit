@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "RxBluetoothKit",
-        "repositoryURL": "https://github.com/Polidea/RxBluetoothKit",
-        "state": {
-          "branch": null,
-          "revision": "20a0736b5f53dedd291254236a99509d2be1855f",
-          "version": "6.0.0"
-        }
-      },
-      {
-        "package": "RxSwift",
-        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
-          "version": "5.1.1"
-        }
+  "originHash" : "ed226609aae22e83e0fc6f5aca2ea9d2ba6518dd5fd8576285b26d9b4a415efe",
+  "pins" : [
+    {
+      "identity" : "rxbluetoothkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RomanPodymov/RxBluetoothKit",
+      "state" : {
+        "branch" : "ios-15-support",
+        "revision" : "0421cc6f164b941464a29614bc8f26fdb8e1fd58"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "b06a8c8596e4c3e8e7788e08e720e3248563ce6a",
+        "version" : "6.7.1"
+      }
+    }
+  ],
+  "version" : 3
 }
